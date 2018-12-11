@@ -1,0 +1,103 @@
+#main {
+  background: url(https://www.dropbox.com/s/mrh945tgo6e6ttr/muppets.jpg?dl=1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#cover-color {
+  background-color: rgba(0, 30, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+#center-div {
+  margin: auto;
+  max-width: 600px;
+  padding: 50px 50px 30px 50px;
+  background-color: #fff;
+  //border: solid 2px red;
+}
+
+#title {
+  color: #fff;
+  background-color: #069a08;
+  width: 150px;
+  padding: 10px 5px 1px 30px;
+}
+
+#img-div {
+  max-width: 100%;
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  //display: block;
+  margin: 0 auto 0 auto;
+  block: left;
+}
+
+#image2 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto -5px auto;
+}
+
+#image3 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto -5px auto;
+}
+
+.img-caption {
+  margin: 6px 0 35px 0;
+}
+
+.rounded-corner-top-right {
+  border-radius: 0 50px 0 0;
+}
+
+.round-image {
+  //border-radius: 500px;
+}
+
+.padding-top {
+  padding-top: 30px;
+}
+
+#tribute-info {
+  max-width: 560px;
+  margin: 0 auto 0 auto;
+  text-align: justify;
+  line-height: 1.4em;
+  //border: solid 2px blue;
+}
+
+a:link, a:visited {
+  color: purple;
+}
+
+a:hover, a:active {
+  color: white;
+  background-color: indigo;
+}
+
+hr {
+  margin: 40px 0 30px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.2em;
+  }
+  
+  .img-caption {
+    text-align: left;
+  }
+}
